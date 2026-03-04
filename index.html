@@ -26,7 +26,7 @@
       <figure>
 				<img src="assets/for_better.png" alt="">
 				<figcaption>
-					BRIEF CAPTION HERE.
+					Display of number of abortion clinics by state and number of abortions by state in 2020.
 				</figcaption>
 			</figure>
 
@@ -35,9 +35,20 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>
+					<strong>A map was chosen to convey state boundary lines and interstate travel patterns. (Earnest +2)</strong><br>
+					A map was chosen because the variable (interstate travel) is inherently geographic. It allows readers to see adjacency and border effects, which are central to understanding residents crossing state lines due to lack of clinics. While a bar chart was considered, it would obscure regional clustering and adjacency. The map also enables readers to draw on prior geographic knowledge about state policies, reinforcing the persuasive impact.
+				</li>
+			
+				<li>
+					<strong>Purple sequential gradient was utilized. (Neutral 0)</strong><br>
+					Purple was selected in recognition of Women’s Month, though the color itself was not central to the argument. A sequential purple gradient reinforces magnitude rather than polarity, which is appropriate because the variable does not have a meaningful midpoint. The gradient effectively highlights variation in intensity across states without implying political opposition.
+				</li>
+			
+				<li>
+					<strong>Percentage of residents was contrasted with raw number of abortion clinics. (Deceptive -2)</strong><br>
+					Placing a percentage measure beside a raw count invites direct visual comparison despite the variables being on fundamentally different scales. Percentage values obscure the magnitude of underlying populations, while clinic counts are not normalized for population density or geographic size. Without adjusting clinics per capita or per square mile, readers may infer causal relationships that the visualization does not support.
+				</li>
 			</ul>
     </section>
 
@@ -47,18 +58,33 @@
       <figure>
 				<img src="assets/against_better.png" alt="">
 				<figcaption>
-          BRIEF CAPTION HERE.
+			Display of percent change in abortion rate and percent change in number of abortion clinics from 2017 to 2020.
 				</figcaption>
 			</figure>
 
 			<p>
 				Design Decisions and Rationale:
 			</p>
-
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>
+					<strong>Red and blue diverging color scale was utilized. (Deceptive -1)</strong><br>
+					Red and blue were intentionally chosen due to their strong political associations with Republican and Democratic parties. These colors may evoke emotional and ideological responses, encouraging readers to map political assumptions onto the data. A neutral diverging palette (such as orange–purple or gray–green) was considered, but red–blue was selected for its cultural salience and persuasive impact.
+				</li>
+			
+				<li>
+					<strong>The legend does not span -100% to 100% and instead uses observed min/max values. (Deceptive -2)</strong><br>
+					The legend was auto-scaled to the minimum and maximum values in the dataset rather than a symmetric range. This amplifies perceived differences between states by increasing color contrast. Extreme states appear more dramatic relative to others, potentially exaggerating variation and drawing attention to specific outliers.
+				</li>
+			
+				<li>
+					<strong>Percent change was utilized rather than absolute change. (Deceptive -2)</strong><br>
+					Percent change can exaggerate shifts when baseline numbers are small. For example, a state with 2 clinics dropping to 1 shows a -50% change, which appears dramatic despite representing only one clinic. Without knowing the baseline counts or demand, percent change may distort the perceived magnitude of change.
+				</li>
+			
+				<li>
+					<strong>Abortion rate was shown rather than out-of-state travel. (Deceptive -2)</strong><br>
+					By presenting percent change in in-state abortion rates rather than the percentage of residents traveling out of state, the visualization may suggest reduced demand instead of displacement of demand. This framing obscures structural access barriers and may lead readers to assume that decreases in abortion rates reflect behavioral change rather than restricted access.
+				</li>
 			</ul>
     </section>
 

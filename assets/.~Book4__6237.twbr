@@ -1739,8 +1739,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]' field-type='quantitative' max='40406412.807428956' min='16936344.011523057' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]' field-type='quantitative' max='17623271.078867361' min='-1368955.9386460017' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]' field-type='quantitative' max='34538895.608452484' min='22803861.210499533' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]' field-type='quantitative' max='12875214.32448902' min='10603.854442692362' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% change in the no. of abortion clinics, 2017-2020:qk]' type='custom-interpolated'>
@@ -2003,7 +2003,7 @@
       </cards>
       <simple-id uuid='{5122D5D3-1409-40C3-98A3-E1FCB956130C}' />
     </window>
-    <window class='worksheet' name='expenditures, 2015'>
+    <window class='worksheet' maximized='true' name='expenditures, 2015'>
       <cards>
         <edge name='left'>
           <strip size='300'>
@@ -2031,7 +2031,7 @@
       </cards>
       <simple-id uuid='{68199F27-A529-44E1-BB3D-89D8591A986E}' />
     </window>
-    <window class='worksheet' maximized='true' name='change in number clinics'>
+    <window class='worksheet' name='change in number clinics'>
       <cards>
         <edge name='left'>
           <strip size='300'>
