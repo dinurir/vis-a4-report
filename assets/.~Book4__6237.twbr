@@ -1,0 +1,2120 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0206.0336                               -->
+<workbook original-version='18.1' source-build='2025.3.3 (20253.26.0206.0336)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='GuttmacherInstituteAbortionDataByState' inline='true' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='GuttmacherInstituteAbortionDataByState' name='excel-direct.1k8qpxb0ltao111e23q9u1g9r00u'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/dinurirupasinghe/Downloads/GuttmacherInstituteAbortionDataByState.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation all='true' name='Guttmacher+' type='union'>
+          <columns>
+            <column datatype='string' name='U.S. State' />
+            <column datatype='integer' name='% change in abortion rate, 2017-2020' />
+            <column datatype='integer' name='% change in the no. of abortion clinics, 2017-2020' />
+            <column datatype='integer' name='% change in the no. of abortion providers, 2014-2017' />
+            <column datatype='real' name='% of all U.S. abortions, by state of occurrence, 2020' />
+            <column datatype='integer' name='% of counties without a known abortion provider, 2014' />
+            <column datatype='integer' name='% of counties without a known clinic, 2020' />
+            <column datatype='integer' name='% of residents obtaining abortions who traveled out of state for care, 2020' />
+            <column datatype='integer' name='% of women aged 15-44 living in a county without a clinic, 2020' />
+            <column datatype='integer' name='% of women aged 15-44 living in a county without an abortion provider, 2014' />
+            <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' />
+            <column datatype='real' name='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' />
+            <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' />
+            <column datatype='integer' name='Change in the no. of abortion clinics, 2017-2020' />
+            <column datatype='integer' name='Change in the no. of abortion providers, 2014-2017' />
+            <column datatype='integer' name='No. of abortion clinics, 2020' />
+            <column datatype='integer' name='No. of abortion providers, 2017' />
+            <column datatype='string' name='No. of abortions among women aged 15-17, by state of residence, 2017' />
+            <column datatype='integer' name='No. of abortions among women aged 15-19, by state of residence, 2017' />
+            <column datatype='string' name='No. of abortions among women aged 18-19, by state of residence, 2017' />
+            <column datatype='integer' name='No. of abortions among women younger than 15, by state of residence, 2017' />
+            <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' />
+            <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' />
+            <column datatype='integer' name='No. of abortions, by state of occurrence, 2020' />
+            <column datatype='integer' name='No. of abortions, by state of residence, 2020' />
+            <column datatype='integer' name='No. of federally funded abortions, 2010' />
+            <column datatype='string' name='No. of state funded abortions, 2010' />
+            <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' />
+            <column datatype='integer' name='Reported public expenditures for abortions (in 000s of dollars), state, 2015' />
+            <column datatype='string' name='Total no. of publicly funded abortions , 2010' />
+            <column datatype='string' name='Total reported public expenditures for abortions (in 000s of dollars), 2015' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1k8qpxb0ltao111e23q9u1g9r00u' name='Guttmacher' table='[Guttmacher$]' type='table'>
+            <columns gridOrigin='A1:AE52:no:A1:AE52:1' lost='0' outcome='1' processed='1412'>
+              <column datatype='string' name='U.S. State' ordinal='0' />
+              <column datatype='integer' name='% change in abortion rate, 2017-2020' ordinal='1' />
+              <column datatype='integer' name='% change in the no. of abortion clinics, 2017-2020' ordinal='2' />
+              <column datatype='integer' name='% change in the no. of abortion providers, 2014-2017' ordinal='3' />
+              <column datatype='real' name='% of all U.S. abortions, by state of occurrence, 2020' ordinal='4' />
+              <column datatype='integer' name='% of counties without a known abortion provider, 2014' ordinal='5' />
+              <column datatype='integer' name='% of counties without a known clinic, 2020' ordinal='6' />
+              <column datatype='integer' name='% of residents obtaining abortions who traveled out of state for care, 2020' ordinal='7' />
+              <column datatype='integer' name='% of women aged 15-44 living in a county without a clinic, 2020' ordinal='8' />
+              <column datatype='integer' name='% of women aged 15-44 living in a county without an abortion provider, 2014' ordinal='9' />
+              <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' ordinal='10' />
+              <column datatype='real' name='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' ordinal='11' />
+              <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' ordinal='12' />
+              <column datatype='integer' name='Change in the no. of abortion clinics, 2017-2020' ordinal='13' />
+              <column datatype='integer' name='Change in the no. of abortion providers, 2014-2017' ordinal='14' />
+              <column datatype='integer' name='No. of abortion clinics, 2020' ordinal='15' />
+              <column datatype='integer' name='No. of abortion providers, 2017' ordinal='16' />
+              <column datatype='string' name='No. of abortions among women aged 15-17, by state of residence, 2017' ordinal='17' />
+              <column datatype='integer' name='No. of abortions among women aged 15-19, by state of residence, 2017' ordinal='18' />
+              <column datatype='string' name='No. of abortions among women aged 18-19, by state of residence, 2017' ordinal='19' />
+              <column datatype='integer' name='No. of abortions among women younger than 15, by state of residence, 2017' ordinal='20' />
+              <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' ordinal='21' />
+              <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' ordinal='22' />
+              <column datatype='integer' name='No. of abortions, by state of occurrence, 2020' ordinal='23' />
+              <column datatype='integer' name='No. of abortions, by state of residence, 2020' ordinal='24' />
+              <column datatype='integer' name='No. of federally funded abortions, 2010' ordinal='25' />
+              <column datatype='string' name='No. of state funded abortions, 2010' ordinal='26' />
+              <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' ordinal='27' />
+              <column datatype='integer' name='Reported public expenditures for abortions (in 000s of dollars), state, 2015' ordinal='28' />
+              <column datatype='string' name='Total no. of publicly funded abortions , 2010' ordinal='29' />
+              <column datatype='string' name='Total reported public expenditures for abortions (in 000s of dollars), 2015' ordinal='30' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AE52:no:A1:AE52:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1412</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U.S. State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[U.S. State]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>U.S. State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% change in abortion rate, 2017-2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% change in abortion rate, 2017-2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% change in abortion rate, 2017-2020</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% change in the no. of abortion clinics, 2017-2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% change in the no. of abortion clinics, 2017-2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% change in the no. of abortion clinics, 2017-2020</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% change in the no. of abortion providers, 2014-2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% change in the no. of abortion providers, 2014-2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% change in the no. of abortion providers, 2014-2017</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of all U.S. abortions, by state of occurrence, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% of all U.S. abortions, by state of occurrence, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% of all U.S. abortions, by state of occurrence, 2020</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of counties without a known abortion provider, 2014</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of counties without a known abortion provider, 2014]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% of counties without a known abortion provider, 2014</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of counties without a known clinic, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of counties without a known clinic, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% of counties without a known clinic, 2020</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of residents obtaining abortions who traveled out of state for care, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of residents obtaining abortions who traveled out of state for care, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% of residents obtaining abortions who traveled out of state for care, 2020</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of women aged 15-44 living in a county without a clinic, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of women aged 15-44 living in a county without a clinic, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% of women aged 15-44 living in a county without a clinic, 2020</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of women aged 15-44 living in a county without an abortion provider, 2014</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of women aged 15-44 living in a county without an abortion provider, 2014]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>% of women aged 15-44 living in a county without an abortion provider, 2014</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change in the no. of abortion clinics, 2017-2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Change in the no. of abortion clinics, 2017-2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Change in the no. of abortion clinics, 2017-2020</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change in the no. of abortion providers, 2014-2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Change in the no. of abortion providers, 2014-2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Change in the no. of abortion providers, 2014-2017</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortion clinics, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortion clinics, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortion clinics, 2020</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortion providers, 2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortion providers, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortion providers, 2017</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women aged 15-17, by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[No. of abortions among women aged 15-17, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions among women aged 15-17, by state of residence, 2017</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women aged 15-19, by state of residence, 2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortions among women aged 15-19, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions among women aged 15-19, by state of residence, 2017</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women aged 18-19, by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[No. of abortions among women aged 18-19, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions among women aged 18-19, by state of residence, 2017</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women younger than 15, by state of residence, 2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortions among women younger than 15, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions among women younger than 15, by state of residence, 2017</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions per 1,000 women aged 15–44, by state of residence, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[No. of abortions per 1,000 women aged 15–44, by state of residence, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions per 1,000 women aged 15–44, by state of residence, 2020</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions, by state of occurrence, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortions, by state of occurrence, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions, by state of occurrence, 2020</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions, by state of residence, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortions, by state of residence, 2020]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of abortions, by state of residence, 2020</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of federally funded abortions, 2010</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of federally funded abortions, 2010]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of federally funded abortions, 2010</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of state funded abortions, 2010</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[No. of state funded abortions, 2010]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>No. of state funded abortions, 2010</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reported public expenditures for abortions (in 000s of dollars), federal, 2015</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Reported public expenditures for abortions (in 000s of dollars), federal, 2015]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Reported public expenditures for abortions (in 000s of dollars), federal, 2015</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reported public expenditures for abortions (in 000s of dollars), state, 2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reported public expenditures for abortions (in 000s of dollars), state, 2015]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Reported public expenditures for abortions (in 000s of dollars), state, 2015</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total no. of publicly funded abortions , 2010</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total no. of publicly funded abortions , 2010]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Total no. of publicly funded abortions , 2010</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total reported public expenditures for abortions (in 000s of dollars), 2015</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total reported public expenditures for abortions (in 000s of dollars), 2015]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Total reported public expenditures for abortions (in 000s of dollars), 2015</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sheet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sheet]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Sheet</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Guttmacher+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='% Change In Abortion Rate, 2017-2020' datatype='integer' name='[% change in abortion rate, 2017-2020]' role='measure' type='quantitative' />
+      <column caption='% Change In The No. Of Abortion Clinics, 2017-2020' datatype='integer' name='[% change in the no. of abortion clinics, 2017-2020]' role='measure' type='quantitative' />
+      <column caption='% Change In The No. Of Abortion Providers, 2014-2017' datatype='integer' name='[% change in the no. of abortion providers, 2014-2017]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% of all U.S. abortions, by state of occurrence, 2020]' role='measure' type='quantitative' />
+      <column caption='% Of Counties Without A Known Abortion Provider, 2014' datatype='integer' name='[% of counties without a known abortion provider, 2014]' role='measure' type='quantitative' />
+      <column caption='% Of Counties Without A Known Clinic, 2020' datatype='integer' name='[% of counties without a known clinic, 2020]' role='measure' type='quantitative' />
+      <column caption='% Of Residents Obtaining Abortions Who Traveled Out Of State For Care, 2020' datatype='integer' name='[% of residents obtaining abortions who traveled out of state for care, 2020]' role='measure' type='quantitative' />
+      <column caption='% Of Women Aged 15-44 Living In A County Without A Clinic, 2020' datatype='integer' name='[% of women aged 15-44 living in a county without a clinic, 2020]' role='measure' type='quantitative' />
+      <column caption='% Of Women Aged 15-44 Living In A County Without An Abortion Provider, 2014' datatype='integer' name='[% of women aged 15-44 living in a county without an abortion provider, 2014]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='real' name='[Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Change in the no. of abortion clinics, 2017-2020]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Change in the no. of abortion providers, 2014-2017]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[No. of abortion clinics, 2020]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[No. of abortion providers, 2017]' role='measure' type='quantitative' />
+      <column datatype='string' name='[No. of abortions among women aged 15-17, by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[No. of abortions among women aged 15-19, by state of residence, 2017]' role='measure' type='quantitative' />
+      <column datatype='string' name='[No. of abortions among women aged 18-19, by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[No. of abortions among women younger than 15, by state of residence, 2017]' role='measure' type='quantitative' />
+      <column datatype='real' name='[No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020]' role='measure' type='quantitative' />
+      <column datatype='real' name='[No. of abortions per 1,000 women aged 15–44, by state of residence, 2020]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[No. of abortions, by state of occurrence, 2020]' role='measure' type='quantitative' />
+      <column datatype='string' name='[No. of state funded abortions, 2010]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Guttmacher' datatype='table' name='[__tableau_internal_object_id__].[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Guttmacher_B9826616B1F14F8F8EF3721DCADA0168:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% change in abortion rate, 2017-2020]' derivation='Sum' name='[sum:% change in abortion rate, 2017-2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% change in the no. of abortion clinics, 2017-2020]' derivation='Sum' name='[sum:% change in the no. of abortion clinics, 2017-2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% change in the no. of abortion providers, 2014-2017]' derivation='Sum' name='[sum:% change in the no. of abortion providers, 2014-2017:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% of all U.S. abortions, by state of occurrence, 2020]' derivation='Sum' name='[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% of counties without a known abortion provider, 2014]' derivation='Sum' name='[sum:% of counties without a known abortion provider, 2014:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% of counties without a known clinic, 2020]' derivation='Sum' name='[sum:% of counties without a known clinic, 2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% of residents obtaining abortions who traveled out of state for care, 2020]' derivation='Sum' name='[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% of women aged 15-44 living in a county without a clinic, 2020]' derivation='Sum' name='[sum:% of women aged 15-44 living in a county without a clinic, 2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% of women aged 15-44 living in a county without an abortion provider, 2014]' derivation='Sum' name='[sum:% of women aged 15-44 living in a county without an abortion provider, 2014:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017]' derivation='Sum' name='[sum:Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Change in the no. of abortion clinics, 2017-2020]' derivation='Sum' name='[sum:Change in the no. of abortion clinics, 2017-2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Change in the no. of abortion providers, 2014-2017]' derivation='Sum' name='[sum:Change in the no. of abortion providers, 2014-2017:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[No. of abortion clinics, 2020]' derivation='Sum' name='[sum:No. of abortion clinics, 2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[No. of abortion providers, 2017]' derivation='Sum' name='[sum:No. of abortion providers, 2017:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[No. of abortions among women aged 15-19, by state of residence, 2017]' derivation='Sum' name='[sum:No. of abortions among women aged 15-19, by state of residence, 2017:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[No. of abortions among women younger than 15, by state of residence, 2017]' derivation='Sum' name='[sum:No. of abortions among women younger than 15, by state of residence, 2017:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020]' derivation='Sum' name='[sum:No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[No. of abortions per 1,000 women aged 15–44, by state of residence, 2020]' derivation='Sum' name='[sum:No. of abortions per 1,000 women aged 15–44, by state of residence, 2020:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[No. of abortions, by state of occurrence, 2020]' derivation='Sum' name='[sum:No. of abortions, by state of occurrence, 2020:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='/Users/dinurirupasinghe/Documents/datavistableau/GuttmacherInstituteAbortionDataByState.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/03/2026 04:34:57 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='GuttmacherInstituteAbortionDataByState' increment-value='%null%' refresh-type='create' rows-inserted='51' timestamp-start='2026-03-03 04:34:56.981' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>U.S. State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[U.S. State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>U.S. State</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% change in abortion rate, 2017-2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% change in abortion rate, 2017-2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% change in abortion rate, 2017-2020</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% change in the no. of abortion clinics, 2017-2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% change in the no. of abortion clinics, 2017-2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% change in the no. of abortion clinics, 2017-2020</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% change in the no. of abortion providers, 2014-2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% change in the no. of abortion providers, 2014-2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% change in the no. of abortion providers, 2014-2017</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% of all U.S. abortions, by state of occurrence, 2020</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[% of all U.S. abortions, by state of occurrence, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% of all U.S. abortions, by state of occurrence, 2020</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% of counties without a known abortion provider, 2014</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% of counties without a known abortion provider, 2014]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% of counties without a known abortion provider, 2014</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% of counties without a known clinic, 2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% of counties without a known clinic, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% of counties without a known clinic, 2020</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% of residents obtaining abortions who traveled out of state for care, 2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% of residents obtaining abortions who traveled out of state for care, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% of residents obtaining abortions who traveled out of state for care, 2020</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% of women aged 15-44 living in a county without a clinic, 2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% of women aged 15-44 living in a county without a clinic, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% of women aged 15-44 living in a county without a clinic, 2020</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>% of women aged 15-44 living in a county without an abortion provider, 2014</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[% of women aged 15-44 living in a county without an abortion provider, 2014]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>% of women aged 15-44 living in a county without an abortion provider, 2014</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Change in the no. of abortion clinics, 2017-2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Change in the no. of abortion clinics, 2017-2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Change in the no. of abortion clinics, 2017-2020</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Change in the no. of abortion providers, 2014-2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Change in the no. of abortion providers, 2014-2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Change in the no. of abortion providers, 2014-2017</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortion clinics, 2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of abortion clinics, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortion clinics, 2020</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortion providers, 2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of abortion providers, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortion providers, 2017</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions among women aged 15-17, by state of residence, 2017</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[No. of abortions among women aged 15-17, by state of residence, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions among women aged 15-17, by state of residence, 2017</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions among women aged 15-19, by state of residence, 2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of abortions among women aged 15-19, by state of residence, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions among women aged 15-19, by state of residence, 2017</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions among women aged 18-19, by state of residence, 2017</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[No. of abortions among women aged 18-19, by state of residence, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions among women aged 18-19, by state of residence, 2017</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions among women younger than 15, by state of residence, 2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of abortions among women younger than 15, by state of residence, 2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions among women younger than 15, by state of residence, 2017</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions per 1,000 women aged 15–44, by state of residence, 2020</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[No. of abortions per 1,000 women aged 15–44, by state of residence, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions per 1,000 women aged 15–44, by state of residence, 2020</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions, by state of occurrence, 2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of abortions, by state of occurrence, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions, by state of occurrence, 2020</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of abortions, by state of residence, 2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of abortions, by state of residence, 2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of abortions, by state of residence, 2020</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of federally funded abortions, 2010</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of federally funded abortions, 2010]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of federally funded abortions, 2010</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of state funded abortions, 2010</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[No. of state funded abortions, 2010]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of state funded abortions, 2010</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reported public expenditures for abortions (in 000s of dollars), federal, 2015</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Reported public expenditures for abortions (in 000s of dollars), federal, 2015]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reported public expenditures for abortions (in 000s of dollars), federal, 2015</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reported public expenditures for abortions (in 000s of dollars), state, 2015</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Reported public expenditures for abortions (in 000s of dollars), state, 2015]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reported public expenditures for abortions (in 000s of dollars), state, 2015</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total no. of publicly funded abortions , 2010</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Total no. of publicly funded abortions , 2010]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total no. of publicly funded abortions , 2010</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total reported public expenditures for abortions (in 000s of dollars), 2015</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Total reported public expenditures for abortions (in 000s of dollars), 2015]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total reported public expenditures for abortions (in 000s of dollars), 2015</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sheet</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sheet]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sheet</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Guttmacher+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Guttmacher_B9826616B1F14F8F8EF3721DCADA0168]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% of women aged 15-44 living in a county without a clinic, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% change in the no. of abortion providers, 2014-2017:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% of women aged 15-44 living in a county without an abortion provider, 2014:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% of counties without a known abortion provider, 2014:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortions per 1,000 women aged 15–44, by state of residence, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% change in abortion rate, 2017-2020:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:Change in the no. of abortion clinics, 2017-2020:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortion clinics, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortions among women younger than 15, by state of residence, 2017:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% of counties without a known clinic, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:Change in the no. of abortion providers, 2014-2017:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[__tableau_internal_object_id__].[cnt:Guttmacher_B9826616B1F14F8F8EF3721DCADA0168:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortions, by state of occurrence, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% of all U.S. abortions, by state of occurrence, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortion providers, 2017:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortions among women aged 15-19, by state of residence, 2017:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% of residents obtaining abortions who traveled out of state for care, 2020:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% change in the no. of abortion clinics, 2017-2020:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Guttmacher' id='Guttmacher_B9826616B1F14F8F8EF3721DCADA0168'>
+            <properties context=''>
+              <relation all='true' name='Guttmacher+' type='union'>
+                <columns>
+                  <column datatype='string' name='U.S. State' />
+                  <column datatype='integer' name='% change in abortion rate, 2017-2020' />
+                  <column datatype='integer' name='% change in the no. of abortion clinics, 2017-2020' />
+                  <column datatype='integer' name='% change in the no. of abortion providers, 2014-2017' />
+                  <column datatype='real' name='% of all U.S. abortions, by state of occurrence, 2020' />
+                  <column datatype='integer' name='% of counties without a known abortion provider, 2014' />
+                  <column datatype='integer' name='% of counties without a known clinic, 2020' />
+                  <column datatype='integer' name='% of residents obtaining abortions who traveled out of state for care, 2020' />
+                  <column datatype='integer' name='% of women aged 15-44 living in a county without a clinic, 2020' />
+                  <column datatype='integer' name='% of women aged 15-44 living in a county without an abortion provider, 2014' />
+                  <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' />
+                  <column datatype='real' name='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' />
+                  <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' />
+                  <column datatype='integer' name='Change in the no. of abortion clinics, 2017-2020' />
+                  <column datatype='integer' name='Change in the no. of abortion providers, 2014-2017' />
+                  <column datatype='integer' name='No. of abortion clinics, 2020' />
+                  <column datatype='integer' name='No. of abortion providers, 2017' />
+                  <column datatype='string' name='No. of abortions among women aged 15-17, by state of residence, 2017' />
+                  <column datatype='integer' name='No. of abortions among women aged 15-19, by state of residence, 2017' />
+                  <column datatype='string' name='No. of abortions among women aged 18-19, by state of residence, 2017' />
+                  <column datatype='integer' name='No. of abortions among women younger than 15, by state of residence, 2017' />
+                  <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' />
+                  <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' />
+                  <column datatype='integer' name='No. of abortions, by state of occurrence, 2020' />
+                  <column datatype='integer' name='No. of abortions, by state of residence, 2020' />
+                  <column datatype='integer' name='No. of federally funded abortions, 2010' />
+                  <column datatype='string' name='No. of state funded abortions, 2010' />
+                  <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' />
+                  <column datatype='integer' name='Reported public expenditures for abortions (in 000s of dollars), state, 2015' />
+                  <column datatype='string' name='Total no. of publicly funded abortions , 2010' />
+                  <column datatype='string' name='Total reported public expenditures for abortions (in 000s of dollars), 2015' />
+                  <column datatype='string' name='Sheet' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='excel-direct.1k8qpxb0ltao111e23q9u1g9r00u' name='Guttmacher' table='[Guttmacher$]' type='table'>
+                  <columns gridOrigin='A1:AE52:no:A1:AE52:1' lost='0' outcome='1' processed='1412'>
+                    <column datatype='string' name='U.S. State' ordinal='0' />
+                    <column datatype='integer' name='% change in abortion rate, 2017-2020' ordinal='1' />
+                    <column datatype='integer' name='% change in the no. of abortion clinics, 2017-2020' ordinal='2' />
+                    <column datatype='integer' name='% change in the no. of abortion providers, 2014-2017' ordinal='3' />
+                    <column datatype='real' name='% of all U.S. abortions, by state of occurrence, 2020' ordinal='4' />
+                    <column datatype='integer' name='% of counties without a known abortion provider, 2014' ordinal='5' />
+                    <column datatype='integer' name='% of counties without a known clinic, 2020' ordinal='6' />
+                    <column datatype='integer' name='% of residents obtaining abortions who traveled out of state for care, 2020' ordinal='7' />
+                    <column datatype='integer' name='% of women aged 15-44 living in a county without a clinic, 2020' ordinal='8' />
+                    <column datatype='integer' name='% of women aged 15-44 living in a county without an abortion provider, 2014' ordinal='9' />
+                    <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' ordinal='10' />
+                    <column datatype='real' name='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' ordinal='11' />
+                    <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' ordinal='12' />
+                    <column datatype='integer' name='Change in the no. of abortion clinics, 2017-2020' ordinal='13' />
+                    <column datatype='integer' name='Change in the no. of abortion providers, 2014-2017' ordinal='14' />
+                    <column datatype='integer' name='No. of abortion clinics, 2020' ordinal='15' />
+                    <column datatype='integer' name='No. of abortion providers, 2017' ordinal='16' />
+                    <column datatype='string' name='No. of abortions among women aged 15-17, by state of residence, 2017' ordinal='17' />
+                    <column datatype='integer' name='No. of abortions among women aged 15-19, by state of residence, 2017' ordinal='18' />
+                    <column datatype='string' name='No. of abortions among women aged 18-19, by state of residence, 2017' ordinal='19' />
+                    <column datatype='integer' name='No. of abortions among women younger than 15, by state of residence, 2017' ordinal='20' />
+                    <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' ordinal='21' />
+                    <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' ordinal='22' />
+                    <column datatype='integer' name='No. of abortions, by state of occurrence, 2020' ordinal='23' />
+                    <column datatype='integer' name='No. of abortions, by state of residence, 2020' ordinal='24' />
+                    <column datatype='integer' name='No. of federally funded abortions, 2010' ordinal='25' />
+                    <column datatype='string' name='No. of state funded abortions, 2010' ordinal='26' />
+                    <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' ordinal='27' />
+                    <column datatype='integer' name='Reported public expenditures for abortions (in 000s of dollars), state, 2015' ordinal='28' />
+                    <column datatype='string' name='Total no. of publicly funded abortions , 2010' ordinal='29' />
+                    <column datatype='string' name='Total reported public expenditures for abortions (in 000s of dollars), 2015' ordinal='30' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Abortion Clinics'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Abortion Clinics by State in 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column datatype='integer' name='[No. of abortion clinics, 2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[No. of abortion clinics, 2020]' derivation='Sum' name='[sum:No. of abortion clinics, 2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortion clinics, 2020:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]' />
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortion clinics, 2020:qk]' />
+              <geometry column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6062D277-BF79-46F1-9171-FB4B4FD6C80F}' />
+    </worksheet>
+    <worksheet name='Abortions by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of US Abortions by State in 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column datatype='real' name='[% of all U.S. abortions, by state of occurrence, 2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% of all U.S. abortions, by state of occurrence, 2020]' derivation='Sum' name='[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]' />
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' />
+              <geometry column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{BA80E3C0-DC94-4642-B940-D59444BA499D}' />
+    </worksheet>
+    <worksheet name='Out of State Care'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Percent of Residents Traveling Out of State for Abortions, 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column caption='% Of Residents Obtaining Abortions Who Traveled Out Of State For Care, 2020' datatype='integer' name='[% of residents obtaining abortions who traveled out of state for care, 2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% of residents obtaining abortions who traveled out of state for care, 2020]' derivation='Sum' name='[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]' />
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]' />
+              <geometry column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{129B922A-DF5A-4499-9E96-DFAD4BB05AD4}' />
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of US Abortions by State in 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column datatype='real' name='[% of all U.S. abortions, by state of occurrence, 2020]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% of all U.S. abortions, by state of occurrence, 2020]' derivation='Sum' name='[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017]' derivation='Sum' name='[sum:Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' included-values='in-range'>
+            <max>3.0</max>
+          </filter>
+          <slices>
+            <column>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017:qk]</cols>
+      </table>
+      <simple-id uuid='{00A1F308-502B-436D-AC51-4464161C118B}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column caption='% Of Residents Obtaining Abortions Who Traveled Out Of State For Care, 2020' datatype='integer' name='[% of residents obtaining abortions who traveled out of state for care, 2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017]' derivation='None' name='[none:Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017]' derivation='None' name='[none:Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% of residents obtaining abortions who traveled out of state for care, 2020]' derivation='Sum' name='[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]</rows>
+        <cols>([federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017:nk] / [federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017:nk])</cols>
+      </table>
+      <simple-id uuid='{97D7E1E0-8A7F-41EE-A37C-158B080F6FD1}' />
+    </worksheet>
+    <worksheet name='Sheet 6 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Abortions Obtained Out of State, and Number of Abortion Clinics</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column caption='% Of Residents Obtaining Abortions Who Traveled Out Of State For Care, 2020' datatype='integer' name='[% of residents obtaining abortions who traveled out of state for care, 2020]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[No. of abortion clinics, 2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% of residents obtaining abortions who traveled out of state for care, 2020]' derivation='Sum' name='[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[No. of abortion clinics, 2020]' derivation='Sum' name='[sum:No. of abortion clinics, 2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:\% of residents obtaining abortions who traveled out of state for care, 2020:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortion clinics, 2020:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:U.S. State:nk]' member='&quot;California&quot;' />
+              <groupfilter function='member' level='[none:U.S. State:nk]' member='&quot;Missouri&quot;' />
+              <groupfilter function='member' level='[none:U.S. State:nk]' member='&quot;South Dakota&quot;' />
+              <groupfilter function='member' level='[none:U.S. State:nk]' member='&quot;West Virginia&quot;' />
+              <groupfilter function='member' level='[none:U.S. State:nk]' member='&quot;Wyoming&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]</column>
+            <column>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Multiple Values]' field-type='quantitative' max='90.0' min='-14.4' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Multiple Values]</rows>
+        <cols>([federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk] / [federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{299DB95E-3BF8-4EE3-BF63-662162324C78}' />
+    </worksheet>
+    <worksheet name='US Abortions 2020'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of US Abortions by State in 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column datatype='real' name='[% of all U.S. abortions, by state of occurrence, 2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% of all U.S. abortions, by state of occurrence, 2020]' derivation='Sum' name='[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]</cols>
+      </table>
+      <simple-id uuid='{E0A16040-F04C-4DD7-9076-4B5858F36297}' />
+    </worksheet>
+    <worksheet name='change in abortion rate'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Percent Change in Abortion Rate in 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column caption='% Change In Abortion Rate, 2017-2020' datatype='integer' name='[% change in abortion rate, 2017-2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% change in abortion rate, 2017-2020]' derivation='Sum' name='[sum:% change in abortion rate, 2017-2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]' field-type='quantitative' max='36279777.449192218' min='21052336.976227179' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]' field-type='quantitative' max='12952039.100390185' min='-699383.84357930813' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% change in abortion rate, 2017-2020:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#aa0000</color>
+                <color>#ae0f0f</color>
+                <color>#b22020</color>
+                <color>#b63131</color>
+                <color>#bb4444</color>
+                <color>#bf5656</color>
+                <color>#c36a6a</color>
+                <color>#c77f7f</color>
+                <color>#cc9494</color>
+                <color>#d0aaaa</color>
+                <color>#d4c1c1</color>
+                <color>#d9d9d9</color>
+                <color>#c4cbd1</color>
+                <color>#b1beca</color>
+                <color>#9eb1c3</color>
+                <color>#8da5bc</color>
+                <color>#7c99b5</color>
+                <color>#6c8ead</color>
+                <color>#5d83a6</color>
+                <color>#4f789f</color>
+                <color>#426e98</color>
+                <color>#366591</color>
+                <color>#2b5c8a</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]' />
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% change in abortion rate, 2017-2020:qk]' />
+              <geometry column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{76BDEEB0-FEBA-4B2E-A0BB-C57A5BD5E9F0}' />
+    </worksheet>
+    <worksheet name='change in number clinics'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Percent Change in the Number of Abortion Clinics, 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column caption='% Change In The No. Of Abortion Clinics, 2017-2020' datatype='integer' name='[% change in the no. of abortion clinics, 2017-2020]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% change in the no. of abortion clinics, 2017-2020]' derivation='Sum' name='[sum:% change in the no. of abortion clinics, 2017-2020:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]' field-type='quantitative' max='40406412.807428956' min='16936344.011523057' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]' field-type='quantitative' max='17623271.078867361' min='-1368955.9386460017' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% change in the no. of abortion clinics, 2017-2020:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#aa0003</color>
+                <color>#ae0f12</color>
+                <color>#b22023</color>
+                <color>#b63134</color>
+                <color>#bb4446</color>
+                <color>#bf5658</color>
+                <color>#c36a6c</color>
+                <color>#c77f80</color>
+                <color>#cc9495</color>
+                <color>#d0aaab</color>
+                <color>#d4c1c1</color>
+                <color>#d9d9d9</color>
+                <color>#cacfd4</color>
+                <color>#bbc5cf</color>
+                <color>#adbccb</color>
+                <color>#a0b2c6</color>
+                <color>#93a9c2</color>
+                <color>#86a1bd</color>
+                <color>#7a98b9</color>
+                <color>#6e90b4</color>
+                <color>#6388b0</color>
+                <color>#5880ab</color>
+                <color>#4e79a7</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]' />
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% change in the no. of abortion clinics, 2017-2020:qk]' />
+              <geometry column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{A6C6D186-A247-49C5-BD98-5E22A261D0FB}' />
+    </worksheet>
+    <worksheet name='expenditures, 2015'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of US Abortions by State in 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.1y3m53o1jdyz8c15cfuvu1r48nqq' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1y3m53o1jdyz8c15cfuvu1r48nqq'>
+            <column datatype='integer' name='[Reported public expenditures for abortions (in 000s of dollars), state, 2015]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Reported public expenditures for abortions (in 000s of dollars), state, 2015]' derivation='Sum' name='[sum:Reported public expenditures for abortions (in 000s of dollars), state, 2015:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:Reported public expenditures for abortions (in 000s of dollars), state, 2015:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:U.S. State:nk]' />
+              <color column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:Reported public expenditures for abortions (in 000s of dollars), state, 2015:qk]' />
+              <geometry column='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Latitude (generated)]</rows>
+        <cols>[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{12C7C932-35A5-4E38-BA06-56471F84CEF6}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C0B82B2E-D898-4A1A-BF89-B5EE71C6C85D}' />
+    </window>
+    <window class='worksheet' name='US Abortions 2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{63746BF7-689F-42A7-BAD3-EAE5ADFA7635}' />
+    </window>
+    <window class='worksheet' name='Abortion Clinics'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:No. of abortion clinics, 2020:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0F787F87-7CF4-4554-A2E6-A3B86BAC8047}' />
+    </window>
+    <window class='worksheet' name='Abortions by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of all U.S. abortions, by state of occurrence, 2020:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3A43C7E5-C7A2-45E7-BDE6-81110C27CF37}' />
+    </window>
+    <window class='worksheet' name='Out of State Care'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% of residents obtaining abortions who traveled out of state for care, 2020:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C257BD8E-F148-4917-898E-7197275FBF8C}' />
+    </window>
+    <window class='worksheet' name='change in abortion rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% change in abortion rate, 2017-2020:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5122D5D3-1409-40C3-98A3-E1FCB956130C}' />
+    </window>
+    <window class='worksheet' name='expenditures, 2015'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:Reported public expenditures for abortions (in 000s of dollars), state, 2015:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{68199F27-A529-44E1-BB3D-89D8591A986E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='change in number clinics'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[sum:% change in the no. of abortion clinics, 2017-2020:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{92EFCAAF-AC95-4EC5-83F3-0ECF3E35D903}' />
+    </window>
+    <window class='worksheet' name='Sheet 6 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='295'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8EBE0389-BF0A-4BAE-A75F-DE882D4550B6}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y3m53o1jdyz8c15cfuvu1r48nqq].[none:Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D24CB45B-9EA0-48D1-9ACC-4FEDD3A08F87}' />
+    </window>
+  </windows>
+</workbook>
